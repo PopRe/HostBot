@@ -26,3 +26,38 @@
 !hutlist
 !playerlist
 !popchat <msg>
+
+!clear - clears chat
+!setopacity - sets opacity of the MM window
+
+!langsave - saves populous language data to file
+!lang <#> - prints string # from language data
+!reloadskin - reloads skin from zip file
+!forward - attempts UPnP forwarding and prings forwarding information
+!restore - restores Populous files from original install
+!update - updates MM, mappacks, skins, language files, and Populous 
+!revert - reverts MM install to stable version
+!beta - installs Populous Beta patch version
+!pop - opens MM Populous directory
+!dir - opens MM data directory
+!shots - opens Populous screenshot directory
+!cheat - activates cheat mode (cheats allowed, no ranking)
+!ilikebells - activates bell feature
+!bell - plays bell sound
+!hehehe - hehehe...
+
+!join <channel> - joins private room
+!part <channel> - leaves private room
+!disablechat - stops chat from updating
+!away <msg> - sets status to [<msg>]
+!away - sets status to (Away)
+!brb - sets status to (brb)
+!afk - sets status to (afk)
+!eating - sets status to (eating)
+!school - sets status to (school)
+!sleeping - sets status to (sleeping)
+!zzz - sets status to (sleeping)
+!atwork - sets status to (atwork)
+
+!bot - activates HostBot functionality
+!sendlog - sends a debug log to server
