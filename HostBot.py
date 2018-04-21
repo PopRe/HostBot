@@ -91,7 +91,7 @@ def process_pm(sender, message):
 def process_notify(message):
     global connections, connected, master, in_game, myhut, mode
     if not in_game and message.startswith("$hut "):
-        data = message.split()
+        data = message.split(" ", 3)
         if len(data) < 4: return
         cmd, hut, pos, data = data
         hutlist[ (int(hut)-1)*4 + int(pos) ] = data
