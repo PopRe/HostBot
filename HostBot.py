@@ -94,6 +94,7 @@ def process_notify(message):
         data = message.split(" ", 3)
         if len(data) < 4: return
         cmd, hut, pos, data = data
+        if int(hut) > MAX_HUTS or int(pos) > 3: return
         hutlist[ (int(hut)-1)*4 + int(pos) ] = data
         check_hut()
         
